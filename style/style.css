@@ -1,0 +1,236 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+/*-------------HEADER-----------*/
+nav{
+    background-color: grey;
+    width:100%;
+    padding: 10px;
+}
+.logo a{
+color: white;
+font-size: 40px;
+font-weight: 600;
+text-decoration: none;
+}
+#input1{
+    
+    padding: 1px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 10px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place*/
+}
+    
+
+ul{
+    display: inline-flex;
+}
+li{
+    list-style: none;
+}
+.menu ul a{
+text-decoration: none;
+color: white;
+font-size: 20px;
+font-weight: 600;
+padding: 8px 15px;
+border-radius: 5px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+.menu ul a:hover{
+    background-color: bisque;
+    color:goldenrod;
+}
+/*---------------------------*/
+/*-------------HOME-----------*/
+.image{
+width: 100%;
+background-size: cover;
+height: 100vh;
+}
+.image::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background:black;
+    opacity: 0.4;
+  }
+
+.center{
+
+    position: absolute;
+    top:35%;
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+
+}
+.title{
+    color: goldenrod;
+    font-size: 60px;
+    font-weight: 600;
+    
+}
+.subtitle{
+    color:goldenrod;
+    font-size: 55px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+button{
+    height: 55px;
+    width: 170px;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 2px solid goldenrod;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+ 
+#btn1{
+
+    background: none;
+    color: white;
+}
+
+#btn1:hover{
+
+    background: white;
+    color:goldenrod;
+}
+/*---------------------------*/
+/*-------------AllNAV-----------*/
+.divart{
+
+    display: inline-flex;
+    padding: 32px;
+    align-items: center;
+}
+.imgart{
+   width: 40%;
+   max-height: 45vh; 
+   border-radius: 6%;
+   padding: 10px;
+}
+
+article{
+
+    padding: 0 15px;
+    text-align: justify;
+    font-size: 24px;
+}
+h1{
+
+    color: goldenrod;
+    font-size: 40px;
+    margin-left: 24px;
+    text-transform: uppercase;
+}
+.divart a{
+    text-decoration: none;
+color: rgb(9, 9, 56);
+font-size: 35px;
+font-weight: 500px;
+}
+
+.fa-solid {
+    padding: 20px;
+    font-size: 40px;
+    width: 50px;
+    color: goldenrod;
+
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: goldenrod;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+/*---------------------------*/
+/*-------------footer--------------*/
+footer{
+    background-color: gray;
+    width:100%;
+    padding: 10px;
+    color: goldenrod;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    
+}
+
+.fa-facebook {
+    padding: 20px;
+    font-size: 40px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  
+    color: white;
+  }
+  .fa-facebook:hover{
+    background-color: bisque;
+    color: goldenrod;
+  }
+
+  .fa-twitter {
+    padding: 20px;
+    font-size: 40px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white
+  }
+  .fa-twitter:hover{
+    background-color: bisque;
+    color: goldenrod;
+  }
+
+  .fa-whatsapp {
+    padding: 20px;
+    font-size: 40px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+   
+    color: white;
+  }
+
+  .fa-whatsapp:hover{
+    background-color: bisque;
+    color: goldenrod;
+  }
